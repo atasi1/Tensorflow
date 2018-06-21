@@ -1,0 +1,2 @@
+size of training : 1  
+size of evaluation : 1
