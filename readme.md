@@ -11,13 +11,13 @@ STEP d: Run the following python script to generate the TFR dataset:
           python3 path/to/directory/DriverScript.py config
         
         (a)If you want to generate multiple files from one image file then run the following python script:
-          python3 utilScripts/TfrDataset/PythonScripts/OneToManyImg.py config
+          python3 path/to/directory/OneToManyImg.py config
         
           -Provide the input that the program requires,ex: enter 1 to rotate the image in different angles
         
         (b)If you want to rename a list of files in a specific format (img_<count of file>) then run the following script:
-          python3 utilScripts/TfrDataset/PythonScripts/RenamingImageFiles.py config
+          python3 path/to/directory/RenamingImageFiles.py config
         
         (c)If you want to get the maximum and minimum height and width of list of images then run the follwing script:
-          python3 utilScripts/TfrDataset/PythonScripts/GettingMaxMinHeightWidth.py config
+          python3 path/to/directory/GettingMaxMinHeightWidth.py config
 
