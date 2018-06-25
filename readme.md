@@ -1,14 +1,14 @@
-STEP 1 : Creation of TFR Dataset for the new set of pill images
----------------------------------------------------------------
-STEP a: Put images in this directory : resolve/utilScripts/TfrDataset/images
-STEP b: Put annotations in this directory : resolve/utilScripts/TfrDataset/annotations
-STEP c: Before generating the TFR dataset change some paths in the 'resolve/config/config.ini' file, run the following command:
-        1. nano config/config.ini
+STEP 1 : Creation of TFR Dataset for the images
+-----------------------------------------------
+STEP a: Put images in this directory : path/to/directory/images
+STEP b: Put annotations in this directory : path/to/directory/annotations
+STEP c: Before generating the TFR dataset change some paths in the 'config.ini' file, run the following command:
+        1. nano path/to/config/config.ini
         If you want to generate multiple files from one image file then configure the follwing paths:
         IMAGE (name of the image without extension)
         IMAGE_TYPE (type of the image i.e jpg)
 STEP d: Run the following python script to generate the TFR dataset:
-          python3 utilScripts/TfrDataset/PythonScripts/DriverScript.py config
+          python3 path/to/directory/DriverScript.py config
         
         (a)If you want to generate multiple files from one image file then run the following python script:
           python3 utilScripts/TfrDataset/PythonScripts/OneToManyImg.py config
